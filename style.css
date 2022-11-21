@@ -84,6 +84,9 @@ button:hover{
     text-align: center;
     transition: 0.3s all;
 }
+.navbar-nav .nav-item .actv{
+    color: coral;
+}
 .navbar-nav .nav-item .nav-link:hover{
     color: #fb774b;
     transform: scale(1.2);

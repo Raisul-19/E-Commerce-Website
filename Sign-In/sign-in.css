@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/img/signin/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100vh;
+}
+.sign{
+    padding-top: 100px;
+}
+.sign .sign-in .sign-in-form{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 50px;
+    border-radius: 12px;
+}
+.sign .sign-in .sign-in-form label{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+
+}
+.sign .sign-in .sign-in-form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+.sign .sign-in .sign-in-form button{
+    margin-top: 20px;
+}
+.sign .sign-in .sign-in-form button a{
+    text-decoration: none;
+}
